@@ -29,7 +29,7 @@ public class HomeController {
 
 @GetMapping
     public String home(){
-
+    System.out.println("updated");
         return "Invoked";
     }
 }
